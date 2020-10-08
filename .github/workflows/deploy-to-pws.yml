@@ -7,8 +7,8 @@ on:
     paths:
       - "manifest-pws.yml"
       - ".github/workflows/deploy-to-pws.yml"
-  schedule:
-    - cron: "0 21 * * 3"
+  #schedule:
+    #- cron: "0 21 * * 3"
 
 jobs:
   deploy:
